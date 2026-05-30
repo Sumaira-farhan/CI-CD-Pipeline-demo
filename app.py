@@ -4,7 +4,7 @@ import numpy as np
 
 model = pickle.load(open("model.pkl", "rb"))
 
-st.title("Student Pass Prediction App")
+st.title("Student Pass Prediction App"
 
 hours = st.number_input("Enter study hours")
 
