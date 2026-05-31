@@ -6,7 +6,7 @@ model = pickle.load(open("model.pkl", "rb"))
 
 st.title("Student Pass Prediction App")
 
-hours = st.number_input("Enter study hours")
+hours = st.number_input("Enter study hours"
 
 if st.button("Predict"):
     prediction = model.predict([[hours]])
